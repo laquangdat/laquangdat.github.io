@@ -89,9 +89,35 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 @media (max-width: 576px){
     *{}
 
+.tt p {
+    font-size: 13px;
+    padding: 0 70px;
+    margin-bottom: 20px;
+}
+
+.tt h2 {
+    font-size: 25px;
+}
+
+.tt p {
+    line-height: 25px;
+}
+
+.tt img {
+    width: 200px;
+    margin-top: 125px;
+    margin-bottom: 25px;
+}
+
 ul.nav.navbar-nav.float-xs-right {
-    float: none!important;
+    /* float: none!important; */
     text-align: center;
+    background: white;
+    width: 110%;
+    /* display: block; */
+    padding: 10px 20px;
+    border-top: 1px solid #dedede;
+    margin-right: -15px;
 }
 
 li.nav-item {
