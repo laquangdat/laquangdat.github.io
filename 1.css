@@ -23,3 +23,29 @@ nav.navbar.navbar-light.bg-faded{
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background: white;
 }
+
+@media (max-width: 576px){
+    *{}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none!important;
+    text-align: center;
+}
+
+li.nav-item {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+a.nav-link {
+    line-height: 30px;
+    display: inline!important;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+}
